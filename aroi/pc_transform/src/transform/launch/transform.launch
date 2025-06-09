@@ -1,0 +1,5 @@
+<launch>
+
+    <node pkg="tf2_ros" type="static_transform_publisher" name="livox_to_world" args="0.1 0 -1 0.055 0 0 base_link livox_frame"/>
+
+</launch>
